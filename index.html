@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://kit.fontawesome.com/05f91be29e.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="header">
+      <div class="cloud">
+        <i class="fas fa-cloud" style="color:white;"></i>
+      </div>
+      <h1>Hi, I'm <span style="font-weight: bold;">Exercises</span>, another fine little freebie from <span style="border-bottom: 1px white dotted;">iNTERAD.gr</span></h1>  
+      <h6>Μια μικρή άσκηση για ανάπτυξη CSS3</h6>
+      <div class="create">
+        <a href="#container1" class="js-anchor-link">
+            <button class="btn-create"> ΔΗΜΙΟΥΡΓΗΣΤΕ</button>
+        </a>
+        <div class="vl"></div>
+      </div>
+    </div>
+   
+      <div class="container_1" id="container1">
+        <div class="text">
+          <p class="title1">Lorem ipsum dolor adipiscing amet dolor consequat</p>
+          <div class="grey-line"></div>
+          <p class="text2">Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et amet sapien sed tempus adipiscing id accumsan.</p>
+        </div>
+        <div class="first_image">
+          <img id="pic01" class="pic01" src="cssExcercise/images/pic01.jpg">
+        </div>
+      </div>
+      
+      <div class="container_2">
+       <div class="container_ul">
+         <ul style="list-style-type:none;">
+           <li class="box"><i class="fas fa-code"></i></li>
+           <li class="box"><i class="fas fa-camera-retro"></i></li>
+           <li class="box"><i class="fas fa-desktop"></i></li>
+         </ul>
+         <ul style="list-style-type:none;">
+          <li class="box"><i class="fas fa-bolt"></i></li>
+          <li class="box"><i class="fas fa-cog"></i></li>
+          <li class="box"><i class="fas fa-calendar-alt"></i></li>
+        </ul>
+       </div>
+         <div class="text">
+            <p class="title2" style="color: white;">Lorem ipsum dolor adipiscing amet dolor consequat</p>
+            <div class="white-line"></div>
+            <p class="text3">Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+            <p class="text4">Blandit faucibus proin. Ac aliquam adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
+            <p class="text5">Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+        </div>
+      </div>
+
+      <div class="container_3">
+        <p class="title3">Adipiscing amet consequat</p>
+        <div class="grey-line2"></div>
+        <p class="text6">Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+        <div class="row">
+          <div class="column">
+           <a href="#">
+            <div class="card">
+              <img src="./cssExcercise/images/pic02.jpg" style="border-radius: 5px; max-width:80%; height: auto;">
+              <p class="title4">Magna feugiat lorem</p>
+              <p class="text7">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+              <button class="btn-card">MORE</button>
+            </div>
+          </a>
+          </div>
+          <div class="column">
+           <a href="#">
+            <div class="card">
+              <img src="./cssExcercise/images/pic03.jpg" style="border-radius: 5px; max-width:80%; height: auto;">
+              <p class="title4">Magna feugiat lorem</p>
+              <p class="text7">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+              <button class="btn-card">MORE</button>
+             </div>
+            </a>
+          </div>
+          <div class="column">
+           <a href="#">
+            <div class="card">
+              <img src="./cssExcercise/images/pic04.jpg" style="border-radius: 5px; max-width:80%; height: auto;">
+              <p class="title4">Magna feugiat lorem</p>
+              <p class="text7">Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+              <button class="btn-card">MORE</button>
+            </div>
+           </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container_4">
+        <p class="title5">Ipsum feugiat consequat?</p>
+        <div class="white-line2"></div>
+        <p class="text8">Sed lacus nascetur ac ante amet sapien.</p>
+    
+         <button class="sign-up-btn" onclick="document.getElementById('signup').style.display='block'">SIGN UP</button>
+         <div id="signup" class="modal-form">
+          <form class="modal-content-form animate-form" action="/action_page.php" method="post">
+              <span onclick="document.getElementById('signup').style.display='none'" class="close-form" title="Close Modal">&times;</span>
+              <div class="container-form">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="name" required>
+
+                <label for="last name"><b>Last Name</b></label>
+                <input type="text" placeholder="Enter Last Name" name="lastname" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+        
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                <button class="button-form" type="submit">SIGN UP</button>
+              </div>
+              <div class="container-form" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('signup').style.display='none'" class="cancelbtn">Cancel</button>
+              </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer">
+       <div class="icons">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p class="text-footer">&copy; <script>document.write(new Date().getFullYear())</script>  |  Design:  <span style="border-bottom: 1px white dotted;">iNTERAD.gr</span></p>
+     </div>
+      
+    
+
+     <!-- The Modal -->
+     <div id="myModal" class="modal">
+       <span class="close">&times;</span>
+       <img class="modal-content" id="img01">
+     </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
